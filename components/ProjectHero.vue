@@ -18,7 +18,7 @@
           <ScrollButton class="absolutes mt-10 w-full"></ScrollButton>
         </div>
         <div
-          class="locations borderd relative cursor-pointer border-t-4 border-primelux-grey self-end opacity-30 w-full z-50 py-10"
+          class="locations borderd blur relative cursor-pointer border-t-4 relative border-primelux-grey self-end w-full z-50 py-10"
         >
           <h2
             class="name font-serif font-bold pl-10 text-primelux-grey text-xl"
@@ -28,17 +28,21 @@
           <p class="location text-base pl-10 leading-24px">Ibeju</p>
         </div>
         <div
-          class="locations cursor-pointer border-t-4 border-primelux-grey self-end opacity-30 z-50 w-full py-10"
+          class="locations relative cursor-pointer border-t-4 border-primelux-grey self-end z-50 w-full py-10"
         >
-          <h2 class="font-serif font-bold pl-10 text-primelux-grey text-xl">
+          <h2
+            class="name font-serif font-bold pl-10 text-primelux-grey hover:text-red text-xl"
+          >
             Paris Courthouse
           </h2>
           <p class="location text-base pl-10 leading-24px">Lekki</p>
         </div>
         <div
-          class="locations cursor-pointer border-t-2 self-end opacity-30 w-full z-50 py-10"
+          class="locations cursor-pointer border-t-2 self-end w-full z-50 py-10"
         >
-          <h2 class="font-serif font-bold pl-10 text-primelux-grey text-xl">
+          <h2
+            class="name font-serif font-bold pl-10 text-primelux-grey text-xl"
+          >
             The Shard
           </h2>
           <p class="location text-base pl-10 leading-24px">Magodo</p>
@@ -70,8 +74,27 @@ section {
   }
   .locations {
     background: rgba(104, 113, 136, 0.3);
+    &:hover {
+      background: none;
+      .name {
+        z-index: 2;
+        color: white;
+        opacity: 1;
+      }
+      .location {
+        opacity: 1;
+        color: #eff1f5;
+      }
+    }
+    .name {
+      opacity: 0.3;
+    }
     .location {
       color: #eff1f5;
+      opacity: 0.3;
+    }
+    .blur {
+      filter: blur(4px);
     }
   }
 }
