@@ -1,6 +1,6 @@
 <template>
   <section class="h-auto w-full relative">
-    <AppHero></AppHero>
+    <ProjectHero></ProjectHero>
     <OurVision class="w-full"></OurVision>
     <Project class=""></Project>
     <Testimonial></Testimonial>
@@ -18,7 +18,7 @@
 <script>
 export default {
   layout: 'landingpage',
-  name: 'index',
+  name: 'project',
 }
 </script>
 
