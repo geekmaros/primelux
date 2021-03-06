@@ -1,7 +1,7 @@
 <template>
-  <section class="w-full h-screen flex relative bg-transparent z-50">
+  <section class="hero w-full h-screen flex relative bg-transparent">
     <div
-      class="scroll-btn-wrapper flex justify-center ml-10 mb-16 bottom-0 absolute w-full bg-red-300"
+      class="scroll-btn-wrapper flex justify-center z-50 mb-16 bottom-0 absolute w-full bg-red-300"
     >
       <svg
         width="110"
@@ -100,36 +100,44 @@
       </svg>
     </div>
 
-    <div class="font-serif left-side h-full w-full pt-156 pl-150">
-      <h1 class="text-primelux-grey text-56px font-bold leading-56px max-w-lg">
-        Breathe a new way of living
-      </h1>
-      <p class="mt-6 text-lg text-primelux-grey leading-24px">
-        We are providers of premier life science real estate
-      </p>
+    <div class="font-serif left-side h-full w-full pt-216">
+      <div class="inner-wrapper w-full ml-156">
+        <h1
+          class="text-primelux-grey text-56px font-bold leading-56px max-w-lg z-10"
+        >
+          Breathe a new way of living
+        </h1>
+        <p class="mt-6 text-lg text-primelux-grey leading-24px">
+          We are providers of premier life science real estate
+        </p>
 
-      <button
-        class="mt-84 inline-flex border-b-4 border-primelux-orange text-primelux-grey hover:text-white focus:outline-none transition-all ease-in pb-3 pt-4 px-4 hover:bg-primelux-orange"
-      >
-        <span class="text-base mr-3 leading-16px uppercase font-bold">
-          All Projects</span
-        >
-        <svg
-          width="22"
-          height="18"
-          viewBox="0 0 22 18"
-          class="fill-current"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M0 9H20M20 9L14 1M20 9L14 17"
-            stroke="#EFF1F5"
-            stroke-width="2"
-          />
-        </svg>
-      </button>
+        <LinkButton class="mt-84">All Projects</LinkButton>
+      </div>
     </div>
-    <div class="right-side w-full bg-blue-400"></div>
+    <div class="right-side w-full bg-blue-400 relative">
+      <transition name="fade">
+        <div
+          class="h-full bg-right bg-no-repeat bg-cover relative"
+          style="background-image: url('/images/slide1.png')"
+        >
+          <div class="name-location absolute bottom-0 mb-10 right-0 mr-56">
+            <h3
+              class="font-serif text-lg leading-16px text-primelux-grey font-bold"
+            >
+              Maryland
+            </h3>
+            <p
+              class="font-serif mt-1 text-base leading-16px text-primelux-grey"
+            >
+              Lagos, NG
+            </p>
+          </div>
+        </div>
+      </transition>
+      <ScrollButton
+        class="absolute mb-10 w-full flex justify-end bottom-0 mr-20 right-0"
+      ></ScrollButton>
+    </div>
   </section>
 </template>
 
@@ -144,6 +152,14 @@ section {
   .left-side {
     background: linear-gradient(90deg, #2a314c 0%, #1d2235 100%);
     //transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+  .fade-enter-active,
+  .fade-leave-active {
+    transition: opacity 0.5s;
+  }
+  .fade-enter,
+  .fade-leave-active {
+    opacity: 0;
   }
 }
 </style>
