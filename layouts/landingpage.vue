@@ -60,10 +60,10 @@ main {
       flex-grow: 1;
       flex-shrink: 1;
       flex-basis: auto;
-      opacity: 0.5;
+      opacity: 0.1;
       &.__4 {
         border-right: 0.5px solid #e5e5e5;
-        opacity: 0.5;
+        opacity: 0.1;
       }
     }
   }
