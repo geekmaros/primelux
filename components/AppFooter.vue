@@ -1,8 +1,8 @@
 <template>
   <section
-    class="w-full h-auto px-78 text-primelux-grey leading-24px z-50 pt-32 pb-32"
+    class="w-full h-auto px-5 md:px-78 text-primelux-grey leading-24px z-50 pt-16 md:pt-32 pb-16 md:pb-32"
   >
-    <div class="footer-grid w-full flex z-50">
+    <div class="footer-grid w-full flex flex-col md:flex-row z-50">
       <nuxt-link to="/" class="logo z-50 w-full">
         <svg
           width="180"
@@ -25,26 +25,26 @@
           />
         </svg>
       </nuxt-link>
-      <div class="addr w-full z-50">
-        <p class="text-primelux-grey leading-24px w-7/12">
+      <div class="addr w-full mt-16 md:mt-0 z-50">
+        <p class="text-primelux-grey leading-24px md:w-7/12">
           B1 tower, 195 Agidingbi road,
         </p>
         <p class="mt-2">Ikeja Lagos,</p>
         <p class="mt-2">Lagos Nigeria</p>
       </div>
-      <div class="contact z-50 w-full">
+      <div class="contact z-50 mt-10 md:mt-0 w-full">
         <a class="z-50" href="tel:(84) 18001688">(84) 18001688</a>
         <a class="block mt-5" href="mailto:hello@primelux.com"
           >mailto:hello@primelux.com</a
         >
         <p class="mt-5">© Adige LLC</p>
       </div>
-      <div class="policy w-full">
+      <div class="policy w-full mt-10 md:mt-0">
         <nuxt-link class="block z-50" to="/">Privacy Policy</nuxt-link>
         <nuxt-link class="block mt-5" to="/">Terms Of Use</nuxt-link>
       </div>
     </div>
-    <div class="flex">
+    <div class="flex flex-col md:flex-row">
       <div class="leftside"></div>
       <div class="rightside"></div>
     </div>

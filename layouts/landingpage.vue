@@ -1,5 +1,5 @@
 <template>
-  <main class="h-auto w-full relative">
+  <main class="h-auto w-full relative overflow-x-hidden">
     <AppNav class="absolute w-full top-0 z-10"></AppNav>
     <Nuxt />
     <AppFooter class="z-50"></AppFooter>
@@ -50,6 +50,9 @@ main {
     display: flex;
     //z-index: -1;
     padding: 0 78px;
+    @media screen and (max-width: 600px) {
+      padding: 0 1.25rem;
+    }
     .lines__line {
       border-left: 0.5px solid #e5e5e5;
       //border-right: .5px solid #E5E5E5;

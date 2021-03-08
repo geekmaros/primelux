@@ -18,7 +18,7 @@
           <ScrollButton class="absolutes mt-10 w-full"></ScrollButton>
         </div>
         <div
-          class="locations borderd blur relative cursor-pointer border-t-4 relative border-primelux-grey self-end w-full z-50 py-10"
+          class="locations hidden md:block borderd blur relative cursor-pointer border-t-4 relative border-primelux-grey self-end w-full z-50 py-10"
         >
           <h2
             class="name font-serif font-bold pl-10 text-primelux-grey text-xl"
@@ -28,7 +28,7 @@
           <p class="location text-base pl-10 leading-24px">Ibeju</p>
         </div>
         <div
-          class="locations relative cursor-pointer border-t-4 border-primelux-grey self-end z-50 w-full py-10"
+          class="locations hidden md:block relative cursor-pointer border-t-4 border-primelux-grey self-end z-50 w-full py-10"
         >
           <h2
             class="name font-serif font-bold pl-10 text-primelux-grey hover:text-red text-xl"
@@ -38,7 +38,7 @@
           <p class="location text-base pl-10 leading-24px">Lekki</p>
         </div>
         <div
-          class="locations cursor-pointer border-t-2 self-end w-full z-50 py-10"
+          class="locations hidden md:block cursor-pointer border-t-2 self-end w-full z-50 py-10"
         >
           <h2
             class="name font-serif font-bold pl-10 text-primelux-grey text-xl"

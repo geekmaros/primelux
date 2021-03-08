@@ -1,6 +1,8 @@
 <template>
-  <section class="h-auto w-full bg-red-300 px-78 mt-32 pb-20 flex z-50">
-    <div class="form-wrapper w-full relative h-full flex pb-20">
+  <section class="h-auto w-full bg-red-300 px-5 md:px-78 mt-32 pb-20 flex z-50">
+    <div
+      class="form-wrapper w-full relative h-full flex flex-col md:flex-row pb-20"
+    >
       <svg
         width="322"
         class="absolute"
@@ -39,14 +41,14 @@
         <rect opacity="0.02" width="159" height="72" fill="#EFF1F5" />
       </svg>
 
-      <div class="font-serif left-side h-full w-full pt-156 pl-150">
+      <div class="font-serif left-side h-full w-full pt-16 md:pt-156 nd:pl-150">
         <h1
-          class="text-primelux-grey text-56px font-bold leading-56px max-w-sm"
+          class="text-primelux-grey text-5xl md:text-56px font-bold md:leading-56px max-w-sm"
         >
           Get in touch with us
         </h1>
         <svg
-          class="mt-8"
+          class="mt-5 md:mt-8"
           width="56"
           height="4"
           viewBox="0 0 56 4"
@@ -57,7 +59,10 @@
         </svg>
       </div>
       <div class="form-section w-full pt-24 relative">
-        <form class="relative w-full z-50 ml-10 pr-32" action="">
+        <form
+          class="relative w-full font-serif z-50 md:ml-10 pr-10 md:pr-32"
+          action=""
+        >
           <div class="input-wrapper">
             <input
               class="block pb-5 leading-16px text-primelux-grey"

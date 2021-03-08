@@ -1,7 +1,9 @@
 <template>
-  <section class="hero w-full h-screen flex relative bg-transparent">
+  <section
+    class="hero w-full h-auto md:h-screen flex flex-col md:flex-row relative bg-transparent"
+  >
     <div
-      class="scroll-btn-wrapper flex justify-center z-50 mb-16 bottom-0 absolute w-full bg-red-300"
+      class="scroll-btn-wrapper hidden md:flex justify-center z-50 mb-52 md:mb-16 bottom-0 absolute w-full bg-red-300"
     >
       <svg
         width="110"
@@ -100,21 +102,25 @@
       </svg>
     </div>
 
-    <div class="font-serif left-side h-full w-full pt-216">
-      <div class="inner-wrapper w-full ml-156">
+    <div
+      class="font-serif left-side h-full w-full pt-32 md:pt-216 pb-44 md:pb-0"
+    >
+      <div class="inner-wrapper w-full ml-5 md:ml-156">
         <h1
           class="text-primelux-grey text-56px font-bold leading-56px max-w-lg z-10"
         >
           Breathe a new way of living
         </h1>
-        <p class="mt-6 text-lg text-primelux-grey leading-24px">
+        <p
+          class="mt-6 text-lg text-primelux-grey leading-24px max-w-sm md:max-w-2xl pr-10"
+        >
           We are providers of premier life science real estate
         </p>
 
-        <LinkButton class="mt-84">All Projects</LinkButton>
+        <LinkButton class="mt-10 md:mt-84">All Projects</LinkButton>
       </div>
     </div>
-    <div class="right-side w-full bg-blue-400 relative">
+    <div class="right-side w-full h-96 md:h-full bg-blue-400 relative">
       <transition name="fade">
         <div
           class="h-full bg-right bg-no-repeat bg-cover relative"

@@ -1,5 +1,5 @@
 <template>
-  <nav class="flex justify-between items-center pl-78 pr-78 py-4 h-20">
+  <nav class="flex justify-between items-center px-5 md:px-78 py-4 h-20">
     <nuxt-link to="/">
       <svg
         width="180"
@@ -26,7 +26,7 @@
 
     <div class="menu-wrapper inline-flex items-center">
       <h2
-        class="uppercase font-serif text-base text-primelux-grey font-bold 2xl:leading-3 mr-3"
+        class="uppercase hidden md:block font-serif text-base text-primelux-grey font-bold 2xl:leading-3 mr-3"
       >
         Menu
       </h2>

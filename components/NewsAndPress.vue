@@ -1,21 +1,24 @@
 <template>
-  <section class="w-full h-auto px-78 absolutes">
+  <section class="w-full h-auto px-5 md:px-78">
     <h1
       class="section-title text-56px text-primelux-grey leading-56px font-bold text-center"
     >
       News & Press
     </h1>
 
-    <div class="card-wrapper mt-24 flex grids grid-cols-4 w-full">
+    <div
+      class="card-wrapper mt-24 flex flex-col md:flex-row grids md:grid-cols-4 w-full"
+    >
       <NewsCard
         v-for="(post, index) in posts"
         :key="post - `${index}`"
         :post="post"
+        class="mb-10 md:mb-0"
       ></NewsCard>
     </div>
 
     <div
-      class="scroll-button z-50 w-full flex justify-center items-center space-x-5 mt-24"
+      class="scroll-button z-50 w-full flex justify-center items-center space-x-5 md:mt-24"
     >
       <div class="left-arrow z-50 box cursor-pointer">
         <svg

@@ -1,19 +1,25 @@
 <template>
-  <section class="vision h-auto bg-transparent px-78 pb-20 w-full">
-    <div class="vision-img-wrapper ml-33 mt-93">
+  <section class="vision h-auto bg-transparent px-5 md:px-78 pb-20 w-full">
+    <div class="vision-img-wrapper md:ml-33 mt-20 md:mt-93">
       <img class="w-full" src="/images/vision.png" alt="" />
     </div>
-    <div class="text-section flex justify-end mr-72 -mt-60">
+    <div
+      class="text-section flex justify-start md:justify-end md:mr-72 mt-20 md:-mt-60"
+    >
       <div class="font-serif h-full max-w-30rem flex flex-col">
-        <h1 class="text-primelux-grey text-56px font-bold leading-56px">
+        <h1
+          class="text-primelux-grey text-center md:text-left text-5xl md:text-56px font-bold md:leading-56px"
+        >
           Build & decor construction
         </h1>
-        <p class="mt-6 text-lg text-primelux-grey leading-30px">
+        <p class="mt-6 text-base md:text-lg text-primelux-grey leading-30px">
           Owned and run by a group of commercial property experts, we are a
           long-established property consultancy that’s a popular alternative to
           the industry’s larger international firms.
         </p>
-        <p class="mt-6 text-lg text-primelux-grey text-left leading-30px">
+        <p
+          class="mt-6 text-base text-lg text-primelux-grey text-left leading-30px"
+        >
           With a history in property consultancy dating back to 1833, we’ve
           adapted and evolved to be one of the leading SMEs in the industry.
         </p>
@@ -26,7 +32,11 @@
         <!--        </h1>-->
       </div>
     </div>
-    <img class="arrow-head mt-10" src="/svg/exception.svg" alt="" />
+    <img
+      class="arrow-head w-full md:w-auto mt-10"
+      src="/svg/exception.svg"
+      alt=""
+    />
   </section>
 </template>
 
@@ -40,6 +50,9 @@ export default {
 section {
   .arrow-head {
     width: 98.5%;
+    @media screen and (max-width: 600px) {
+      width: 500%;
+    }
   }
 }
 </style>

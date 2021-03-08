@@ -1,5 +1,5 @@
 <template>
-  <div class="label w-2/4s right-0 pt-3 px-10 pb-5">
+  <div class="label right-0 pt-3 px-5 md:px-10 pb-4 md:pb-5">
     <svg
       width="4"
       height="32"
@@ -11,10 +11,10 @@
       <rect width="4" height="32" fill="#F5B172" />
     </svg>
 
-    <h2 class="font-serif font-bold text-primelux-grey text-xl">
+    <h2 class="font-serif font-bold text-primelux-grey text-lg md:text-xl">
       <slot name="name">Paris Courthouse</slot>
     </h2>
-    <p class="location text-base leading-24px">
+    <p class="location font-serif text-base leading-24px">
       <slot name="location">Lekki</slot>
     </p>
   </div>
@@ -31,6 +31,9 @@ export default {
   background: linear-gradient(270deg, #2d3549 0%, #353e56 100%);
   margin-top: -5rem;
   width: 47%;
+  @media screen and (max-width: 600px) {
+    width: 70%;
+  }
   .location {
     color: #687188;
   }
