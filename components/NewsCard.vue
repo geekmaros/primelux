@@ -1,6 +1,6 @@
 <template>
   <div
-    class="card w-full z-50 transform transition-all duration-300 hover:pb-20 hover:scale-110 cursor-pointer font-serif mr-32 relative pb-10 max-w-xs"
+    class="card w-full z-50 transform transition-all duration-300 hover:pb-20 hover:scale-110 cursor-pointer font-serif md:mr-20 relative pb-10 max-w-xs"
   >
     <div class="inner-card overflow-hidden">
       <img class="post-image w-full" :src="post.imageUrl" alt="" />
