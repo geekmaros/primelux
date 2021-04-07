@@ -105,14 +105,14 @@
     <div
       class="font-serif left-side h-full w-full pt-32 md:pt-216 pb-44 md:pb-0"
     >
-      <div class="inner-wrapper w-full ml-5 md:ml-156">
+      <div class="inner-wrapper w-full ml-5 md:ml-20 lg:ml-156">
         <h1
-          class="text-primelux-grey text-56px font-bold leading-56px max-w-lg z-10"
+          class="text-primelux-grey text-56px font-bold leading-56px max-w-lg md:max-w-min lg:max-w-lg z-10"
         >
           Breathe a new way of living
         </h1>
         <p
-          class="mt-6 text-lg text-primelux-grey leading-24px max-w-sm md:max-w-2xl pr-10"
+          class="mt-6 text-lg text-primelux-grey leading-24px max-w-sm md:max-w-xs lg:max-w-2xl pr-10"
         >
           We are providers of premier life science real estate
         </p>

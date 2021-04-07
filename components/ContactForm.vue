@@ -41,7 +41,7 @@
         <rect opacity="0.02" width="159" height="72" fill="#EFF1F5" />
       </svg>
 
-      <div class="font-serif left-side h-full w-full pt-16 md:pt-156 nd:pl-150">
+      <div class="font-serif left-side h-full w-full pt-16 md:pt-156 md:pl-16 lg:pl-150s">
         <h1
           class="text-primelux-grey text-5xl md:text-56px font-bold md:leading-56px max-w-sm"
         >

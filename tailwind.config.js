@@ -39,6 +39,9 @@ module.exports = {
       },
       maxWidth: {
         '15rem': '15rem',
+        '18rem': '18rem',
+        '185rem': "18.125rem",
+        '19rem': '19rem',
         '30rem': '30rem',
       },
     },

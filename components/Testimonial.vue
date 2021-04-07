@@ -5,12 +5,12 @@
     >
       <img class="mt-32" src="/svg/bg.svg" alt="" />
       <img
-        class="top-0 absolute w-20 md:w-auto z-50"
+        class="top-0 lg:mt-24 absolute w-20 md:w-auto z-50"
         src="/images/ava.png"
         alt="Avatar"
       />
       <img
-        class="absolute w-20 md:w-auto left-0 z-50 md:mt-56 md:ml-80"
+        class="absolute w-20 md:w-auto left-0 z-50 md:mt-56 md:ml-20"
         src="/images/avagirl.png"
         alt="Avatar"
       />
@@ -20,7 +20,7 @@
         alt="Avatar"
       />
       <img
-        class="absolute w-20 md:w-auto right-0 z-50 md:mr-80 md:-mt-20"
+        class="absolute w-20 md:w-auto right-0 z-50 md:mr-10 md:-mt-20"
         src="/images/ava.png"
         alt="Avatar"
       />
@@ -71,7 +71,7 @@ export default {
 section {
   .jamie {
     margin-top: 45rem;
-    margin-left: 47rem;
+    margin-left: 42rem;
     @media screen and (max-width: 600px) {
       margin-top: 45rem;
       margin-left: 8rem;

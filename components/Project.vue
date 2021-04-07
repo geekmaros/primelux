@@ -1,7 +1,7 @@
 <template>
   <section class="w-full h-full px-5 md:px-78 bg-blue-400 relative">
-    <div class="image-wrapper w-full md:ml-7.5 z-50 pl-10s md:pl-0">
-      <img class="z-50 w-full md:w-auto z-50" src="/svg/mostex.svg" alt="" />
+    <div class="image-wrapper w-fulls md:ml-7.5s z-50 pl-10s md:pl-0">
+      <img class="z-50 w-full md:w-3/6 z-50" src="/svg/projecttopimage.svg" alt="" />
     </div>
     <div
       class="grid justify-start w-full h-full md:grid-cols-2 gap-24 mt-20 z-50"

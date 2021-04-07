@@ -1,10 +1,10 @@
 <template>
   <section class="vision h-auto bg-transparent px-5 md:px-78 pb-20 w-full">
-    <div class="vision-img-wrapper md:ml-33 mt-20 md:mt-93">
-      <img class="w-full" src="/images/vision.png" alt="" />
+    <div class="vision-img-wrapper md:ml-33s mt-20 md:mt-93">
+      <img class="w-full md:ml-56 lg:ml-0" src="/images/vision.png" alt="" />
     </div>
     <div
-      class="text-section flex justify-start md:justify-end md:mr-72 mt-20 md:-mt-60"
+      class="text-section flex justify-start md:justify-end md:mr-72 mt-20 md:-mt-60 lg:mr-20 lg:-mt-44"
     >
       <div class="font-serif h-full max-w-30rem flex flex-col">
         <h1
@@ -33,10 +33,45 @@
       </div>
     </div>
     <img
-      class="arrow-head w-full md:w-auto mt-10"
+      class="hidden arrow-head w-full md:w-auto mt-10"
       src="/svg/exception.svg"
       alt=""
     />
+    <div class='main-vision flex flex-col md:flex-row  justify-between mt-20 md:mt-40 items-center'>
+      <div class='vision-wrapper flex mb-16 md:mb-0'>
+        <svg width="4" height="48" viewBox="0 0 4 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="4" height="48" fill="#F5B172"/>
+        </svg>
+
+        <div class='vision-main-text font-serif ml-5  '>
+          <h2 class='vision-title text-primelux-grey font-bold h-10 text-2xl leading-24px max-w-18rem'>Outstanding Management</h2>
+          <p class='vision-subtext text-primelux-grey text-base mt-5 leading-24px max-w-19rem'>Builds quality, liveable homes in attractive metropolitan areas. With family living at the heart of everything we do, the exceptional quality of our design together with our focus on functional homes</p>
+        </div>
+
+      </div>
+      <div class='vision-wrapper flex mb-16 md:mb-0'>
+        <svg width="4" height="48" viewBox="0 0 4 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="4" height="48" fill="#F5B172"/>
+        </svg>
+
+        <div class='vision-main-text font-serif ml-5 '>
+          <h2 class='vision-title text-primelux-grey font-bold h-10 text-2xl leading-24px max-w-18rem'>World Class Expertise</h2>
+          <p class='vision-subtext text-primelux-grey text-base mt-5s leading-24px max-w-19rem'>Builds quality, liveable homes in attractive metropolitan areas. With family living at the heart of everything we do, the exceptional quality of our design together with our focus on functional homes</p>
+        </div>
+
+      </div>
+      <div class='vision-wrapper flex mb-16 md:mb-0'>
+        <svg width="4" height="48" viewBox="0 0 4 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="4" height="48" fill="#F5B172"/>
+        </svg>
+
+        <div class='vision-main-text font-serif ml-5 '>
+          <h2 class='vision-title text-primelux-grey font-bold h-10 text-2xl leading-24px max-w-18rem'>Building the Future</h2>
+          <p class='vision-subtext text-primelux-grey text-base mt-5s leading-24px max-w-19rem'>Builds quality, liveable homes in attractive metropolitan areas. With family living at the heart of everything we do, the exceptional quality of our design together with our focus on functional homes</p>
+        </div>
+
+      </div>
+    </div>
   </section>
 </template>
 
