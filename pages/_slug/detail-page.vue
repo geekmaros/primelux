@@ -56,7 +56,7 @@
               <p class="quantity text-darken-purple text-4xl leading-36px mt-3">
                 200<sub class="text-xs">m2</sub>
               </p>
-              <div class="label text-base leading-24px text-light-purple mt-1">
+              <div class="labels text-base leading-24px text-light-purple mt-1">
                 Gross Area
               </div>
             </div>
@@ -88,7 +88,7 @@
               <p class="quantity text-darken-purple text-4xl leading-36px mt-2">
                 3
               </p>
-              <div class="label text-base leading-24px text-light-purple mt-1">
+              <div class="labels text-base leading-24px text-light-purple mt-1">
                 Bedrooms
               </div>
             </div>
@@ -110,7 +110,7 @@
               <p class="quantity text-darken-purple text-4xl leading-36px mt-2">
                 2
               </p>
-              <div class="label text-base leading-24px text-light-purple mt-1">
+              <div class="labels text-base leading-24px text-light-purple mt-1">
                 Restrooms
               </div>
             </div>
@@ -132,7 +132,7 @@
               <p class="quantity text-darken-purple text-4xl leading-36px mt-2">
                 1
               </p>
-              <div class="label text-base leading-24px text-light-purple mt-1">
+              <div class="labels text-base leading-24px text-light-purple mt-1">
                 Parking spots
               </div>
             </div>
@@ -154,7 +154,7 @@
               <p class="quantity text-darken-purple text-4xl leading-36px mt-2">
                 A+
               </p>
-              <div class="label text-base leading-24px text-light-purple mt-1">
+              <div class="labels text-base leading-24px text-light-purple mt-1">
                 Energy efficiency
               </div>
             </div>
