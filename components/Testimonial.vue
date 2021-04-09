@@ -10,7 +10,7 @@
         alt="Avatar"
       />
       <img
-        class="absolute w-20 md:w-auto left-0 z-50 md:mt-56 md:ml-20"
+        class="absolute w-20 md:w-auto left-0 z-50 md:mt-56 md:ml-20 lg:ml-72"
         src="/images/avagirl.png"
         alt="Avatar"
       />
@@ -20,7 +20,7 @@
         alt="Avatar"
       />
       <img
-        class="absolute w-20 md:w-auto right-0 z-50 md:mr-10 md:-mt-20"
+        class="absolute w-20 md:w-auto right-0 z-50 md:mr-10 lg:mr-72 md:-mt-20 lg:-mt-3"
         src="/images/ava.png"
         alt="Avatar"
       />

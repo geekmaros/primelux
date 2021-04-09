@@ -10,6 +10,9 @@ module.exports = {
       colors: {
         'primelux-grey': '#EFF1F5',
         'primelux-orange': '#F5B172',
+        'theme-color': '#333c53',
+        'light-purple': '#687188',
+        'darken-purple': '#222655',
       },
       spacing: {
         '18rem': '19rem',
@@ -40,9 +43,10 @@ module.exports = {
       maxWidth: {
         '15rem': '15rem',
         '18rem': '18rem',
-        '185rem': "18.125rem",
+        '185rem': '18.125rem',
         '19rem': '19rem',
         '30rem': '30rem',
+        '41rem': '41rem',
       },
     },
   },
