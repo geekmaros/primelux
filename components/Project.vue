@@ -10,13 +10,13 @@
     <div
       class="grid justify-start w-full h-full md:grid-cols-2 gap-24 mt-20 z-50"
     >
-      <nuxt-link class="z-20" to="projects/project">
+      <nuxt-link class="z-20" to="/project">
         <div class="image-1 relative z-50">
           <img class="w-full hover:scale-50" src="/images/image1.png" alt="" />
           <ImageLabel class="absolute"> </ImageLabel>
         </div>
       </nuxt-link>
-      <nuxt-link class="z-50" to="projects/project">
+      <nuxt-link class="z-50" to="/project">
         <div class="image-2 transform md:-translate-y-96 z-50">
           <img class="w-full z-50" src="/images/image2.png" alt="" />
           <ImageLabel class="right-0 absolute">
@@ -25,7 +25,7 @@
           </ImageLabel>
         </div>
       </nuxt-link>
-      <nuxt-link class="z-50" to="projects/project">
+      <nuxt-link class="z-50" to="/project">
         <div class="image-3 transform md:-translate-y-56 z-50">
           <img class="w-full" src="/images/image3.png" alt="" />
           <ImageLabel class="right-0 absolute">
@@ -34,7 +34,7 @@
           </ImageLabel>
         </div>
       </nuxt-link>
-      <nuxt-link class="z-50" to="projects/project">
+      <nuxt-link class="z-50" to="/project">
         <div class="image-4 transform md:-translate-y-72 z-50">
           <img class="w-full" src="/images/image4.png" alt="" />
           <ImageLabel class="right-0 absolute">

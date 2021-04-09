@@ -10,6 +10,7 @@ module.exports = {
       colors: {
         'primelux-grey': '#EFF1F5',
         'primelux-orange': '#F5B172',
+        'primelux-purple': '#505668',
         'theme-color': '#333c53',
         'light-purple': '#687188',
         'darken-purple': '#222655',
@@ -32,6 +33,7 @@ module.exports = {
       },
       fontSize: {
         '56px': '56px',
+        '48px': '48px',
       },
       lineHeight: {
         '16px': '16px',
@@ -47,6 +49,7 @@ module.exports = {
         '19rem': '19rem',
         '30rem': '30rem',
         '41rem': '41rem',
+        '50rem': '50rem',
       },
     },
   },
