@@ -7,7 +7,7 @@
       style="background-image: url('/images/detailpage.png')"
     ></div>
     <div class="flex justify-center -mt-20 z-50">
-      <div class="project-title z-50 bg-theme-color bottom-0 w-8/12">
+      <div class="project-title z-50 bg-theme-color bottom-0 w-8/12 pb-20">
         <div class="name-location pt-20 mx-auto px-16 max-w-3xl">
           <h3
             class="font-bold text-56px leading-56px text-darken-purple text-center"
