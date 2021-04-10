@@ -225,8 +225,8 @@
       >
         Project may you like
       </h3>
-      <div class="relative h-full flex justify-center items-center mt-10">
-        <div class="link-projects h-full flex w-8/12">
+      <div class="relative h-full flex items-center mt-10">
+        <div class="link-projects h-full flex w-full">
           <nuxt-link
             to="#"
             class="left-link z-50 h-32 pl-5 pt-5 relative w-full bg-right bg-no-repeat bg-cover relative"

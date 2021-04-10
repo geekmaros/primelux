@@ -1,6 +1,7 @@
 <template>
   <section class="h-auto w-full relative">
-    <AppHero></AppHero>
+    <ProjectHero></ProjectHero>
+    <!--    <AppHero></AppHero>-->
     <OurVision class="w-full"></OurVision>
     <Project class=""></Project>
     <Testimonial></Testimonial>

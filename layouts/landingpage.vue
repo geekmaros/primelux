@@ -1,6 +1,6 @@
 <template>
   <main class="h-auto w-full relative overflow-x-hidden">
-    <AppNav class="absolute w-full top-0 z-10"></AppNav>
+    <AppNav class="w-full absolute z-10"></AppNav>
     <Nuxt />
     <AppFooter class="z-50"></AppFooter>
     <div class="grid bg-lines w-full h-full grid-cols-5 absolutes top-0">

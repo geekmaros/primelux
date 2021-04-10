@@ -1,5 +1,7 @@
 <template>
-  <nav class="flex justify-between items-center px-5 md:px-78 py-4 h-20">
+  <nav
+    class="flex justify-between absolute items-center px-5 md:px-78 py-4 h-20"
+  >
     <nuxt-link to="/">
       <svg
         width="180"
@@ -24,7 +26,11 @@
       </svg>
     </nuxt-link>
 
-    <div class="menu-wrapper inline-flex items-center">
+    <div
+      v-if="!isOpen"
+      @click="isOpen = !isOpen"
+      class="menu-wrapper inline-flex items-center cursor-pointer"
+    >
       <h2
         class="uppercase hidden md:block font-serif text-base text-primelux-grey font-bold 2xl:leading-3 mr-3"
       >
@@ -35,11 +41,44 @@
         height="24"
         viewBox="0 0 24 24"
         fill="none"
+        class="cursor-pointer"
         xmlns="http://www.w3.org/2000/svg"
       >
         <rect x="2" y="3" width="20" height="2" fill="#EFF1F5" />
         <rect x="2" y="11" width="20" height="2" fill="#EFF1F5" />
         <rect x="2" y="19" width="20" height="2" fill="#EFF1F5" />
+      </svg>
+    </div>
+
+    <div
+      v-if="isOpen"
+      @click="isOpen = !isOpen"
+      class="menu-wrapper inline-flex items-center cursor-pointer"
+    >
+      <h2
+        class="uppercase hidden md:block font-serif text-base text-primelux-grey font-bold 2xl:leading-3 mr-3"
+      >
+        Close
+      </h2>
+      <svg
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M21.1924 19.7782L4.22183 2.80762L2.80762 4.22183L19.7782 21.1924L21.1924 19.7782Z"
+          fill="#EFF1F5"
+        />
+        <path
+          d="M14.1213 8.46447L19.7782 2.80762L21.1924 4.22183L15.5355 9.87869L14.1213 8.46447Z"
+          fill="#EFF1F5"
+        />
+        <path
+          d="M2.80762 19.7782L8.46447 14.1213L9.87868 15.5355L4.22183 21.1924L2.80762 19.7782Z"
+          fill="#EFF1F5"
+        />
       </svg>
     </div>
   </nav>
@@ -48,6 +87,11 @@
 <script>
 export default {
   name: 'AppNav',
+  data() {
+    return {
+      isOpen: false,
+    }
+  },
 }
 </script>
 
