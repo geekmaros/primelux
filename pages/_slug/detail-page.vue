@@ -3,12 +3,14 @@
     class="hero font-serif w-full h-auto relative md:pb-20 bg-transparent"
   >
     <div
-      class="h-full md:h-screen bg-right bg-no-repeat bg-cover relative"
+      class="h-screen md:h-screen bg-right bg-no-repeat bg-cover relative"
       style="background-image: url('/images/detailpage.png')"
     ></div>
     <div class="flex justify-center -mt-20 z-50">
-      <div class="project-title z-50 bg-theme-color bottom-0 w-8/12 pb-20">
-        <div class="name-location pt-20 mx-auto px-16 max-w-3xl">
+      <div
+        class="project-title z-50 bg-theme-color bottom-0 w-11/12 md:w-8/12 pb-20"
+      >
+        <div class="name-location pt-20 mx-auto px-5 md:px-16 max-w-3xl">
           <h3
             class="font-bold text-56px leading-56px text-darken-purple text-center"
           >
@@ -200,8 +202,8 @@
         </div>
       </div>
     </div>
-    <div class="slider-wrapper flex justify-center">
-      <div class="slider w-8/12">
+    <div class="slider-wrapper flex justify-center mt-10 md:mt-0">
+      <div class="slider w-11/12 md:w-8/12">
         <splide :options="options">
           <splide-slide>
             <img class="w-full" src="/images/sliderss.png" alt="" />
@@ -221,7 +223,7 @@
 
     <div class="projects-title mt-40 px-5 md:px-78 mt-20">
       <h3
-        class="font-normal text-48px leading-56px text-primelux-grey text-center"
+        class="font-normal text-4xl md:text-48px leading-56px text-primelux-grey text-center"
       >
         Project may you like
       </h3>
@@ -232,7 +234,9 @@
             class="left-link z-50 h-32 pl-5 pt-5 relative w-full bg-right bg-no-repeat bg-cover relative"
             style="background-image: url('/images/leftlink.png')"
           >
-            <div class="label relative left pt-3 px-5 md:px-10 pb-4 md:pb-5">
+            <div
+              class="label h-24 relative left pt-3 px-5 md:px-10 pb-4 md:pb-5"
+            >
               <svg
                 width="4"
                 height="32"
@@ -245,7 +249,7 @@
               </svg>
 
               <h2
-                class="font-serif font-bold text-primelux-grey text-lg md:text-xl"
+                class="font-serif font-bold text-primelux-grey text-base md:text-lg md:text-xl"
               >
                 <slot name="name">RPBW Atelier</slot>
               </h2>
@@ -259,7 +263,9 @@
             class="right-link z-50 h-32 w-full pt-5 pr-5 bg-right bg-no-repeat bg-cover relative"
             style="background-image: url('/images/rightlink.png')"
           >
-            <div class="label relative ml-auto pt-3 px-5 md:px-5 pb-4 md:pb-5">
+            <div
+              class="label relative h-24 ml-auto pt-3 px-5 md:px-5 pb-4 md:pb-5"
+            >
               <svg
                 width="4"
                 height="32"
@@ -272,7 +278,7 @@
               </svg>
 
               <h2
-                class="font-serif font-bold text-primelux-grey text-lg md:text-xl"
+                class="font-serif font-bold text-primelux-grey text-base md:text-lg md:text-xl"
               >
                 <slot name="name">Jean-Marie Tjibaou</slot>
               </h2>
@@ -295,6 +301,11 @@ export default {
     return {
       options: {
         rewind: true,
+        breakpoints: {
+          650: {
+            autoWidth: true,
+          },
+        },
         // type: 'loop',
         // perPage: 3,
         // perMove: 1,
@@ -331,7 +342,7 @@ section {
     background: linear-gradient(270deg, #2d3549 0%, #353e56 100%);
     width: 47%;
     @media screen and (max-width: 600px) {
-      width: 70%;
+      width: 90%;
     }
     .location {
       color: #687188;

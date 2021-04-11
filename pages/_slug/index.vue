@@ -3,14 +3,14 @@
     class="hero font-serif w-full text-primelux-grey h-auto relative md:pb-20 bg-transparent"
   >
     <div
-      class="h-full md:h-screen bg-right bg-no-repeat bg-cover relative"
+      class="h-screen md:h-screen bg-right bg-no-repeat bg-cover relative"
       style="background-image: url('/images/img.png')"
     >
       <div class="flex justify-center">
         <div
-          class="project-title bg-theme-color absolute -mb-10 bottom-0 w-8/12"
+          class="project-title bg-theme-color absolute -mb-10 bottom-0 md:w-8/12"
         >
-          <div class="name-location pt-20 mx-auto px-16 max-w-2xl">
+          <div class="name-location pt-20 mx-auto px-8 md:px-16 md:max-w-2xl">
             <h3
               class="font-bold text-56px leading-56px text-primelux-grey text-center"
             >
@@ -36,7 +36,7 @@
         </div>
       </div>
     </div>
-    <article class="w-full flex justify-center mt-40">
+    <article class="w-full flex justify-center mt-40 px-5 md:px-0">
       <p class="text-lg leading-30px max-w-41rem">
         Construction is based on L-shaped ground plan, which is proposed as
         atrium due to open surrounding. The mass of the house is formed as a
@@ -47,7 +47,7 @@
         buildings and driveway.
       </p>
     </article>
-    <div class="flex w-full px-5 md:px-78 mt-20">
+    <div class="flex flex-col md:flex-row w-full px-5 md:px-78 mt-20">
       <div class="relative w-full">
         <svg
           class="absolute right-0 -mr-2 mt-40"
@@ -67,7 +67,7 @@
         </svg>
 
         <div
-          class="lil-desc absolute bottom-0 bg-primelux-grey px-10 py-5 w-2/12"
+          class="lil-desc absolute bottom-0 bg-primelux-grey px-5 md:px-10 py-5 w-3/12 md:w-2/12"
         >
           <p class="text-darken-purple pool text-2xl leading-30px font-bold">
             Pool
@@ -80,8 +80,10 @@
 
         <img src="/images/moreimage.png" class="w-full" alt="" />
       </div>
-      <div class="right-side flex justify-center items-center w-full">
-        <p class="text-lg leading-30px max-w-xs">
+      <div
+        class="right-side flex md:justify-center items-center w-full mt-10 md:mt-0"
+      >
+        <p class="text-lg leading-30px md:max-w-xs">
           House has two floors. First floor has a residential character with
           massive glassing on the side of the garden. Second floor is much
           smaller and it represents quite area of the house with children
@@ -90,8 +92,10 @@
         </p>
       </div>
     </div>
-    <div class="flex items-center justify-between w-full px-5 md:px-78 mt-20">
-      <div class="left-content w-7/12 -mr-8 ml-auto grid grid-cols-3">
+    <div
+      class="flex flex-col md:flex-row items-center justify-between w-full px-5 md:px-78 mt-20"
+    >
+      <div class="left-content md:w-7/12 -mr-8 ml-auto grid grid-cols-3">
         <div class="icon-wrapper mb-10">
           <svg
             width="64"
@@ -209,7 +213,7 @@
           </div>
         </div>
       </div>
-      <div class="right-content flex mr-28s">
+      <div class="right-content flex mr-28s mt-10 md:mt-0">
         <div class="image-wrapper relative">
           <div
             class="properties text-48px font-bold absolute bottom-0 max-w-min"
@@ -252,20 +256,20 @@
     </div>
 
     <div class="flex project-info justify-center">
-      <div class="project-info-bg relative w-8/12">
-        <div class="name-location relative pt-20 pb-20 mx-auto px-16 max-w-4xl">
+      <div class="project-info-bg relative md:w-8/12">
+        <div
+          class="name-location relative pt-20 pb-20 mx-auto px-2 md:px-16 max-w-4xl"
+        >
           <h3
-            class="font-bold text-56px leading-56px text-primelux-grey text-center"
+            class="font-bold text-4xl md:text-56px leading-56px text-primelux-grey text-center"
           >
             Project info document
           </h3>
           <nuxt-link
             to="/project/detail-page"
-            class="flex justify-center items-center w-full"
+            class="flex justify-center items-center mt-5 md:mt-10 w-full"
           >
-            <LinkButton class="relative mx-auto mt-10 md:mt-10"
-              >Download Brochure</LinkButton
-            >
+            <LinkButton class="relative mx-auto">Download Brochure</LinkButton>
           </nuxt-link>
         </div>
       </div>

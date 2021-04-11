@@ -5,7 +5,7 @@
   >
     <div class="menu">
       <ul
-        class="text-56px font-bold leading-56px z-50 w-full mt-20 flex flex-col space-y-10 justify-center items-center"
+        class="text-4xl md:text-56px font-bold leading-56px z-50 w-full mt-20 flex flex-col space-y-10 justify-center items-center"
       >
         <li
           class="text-primelux-grey hover:text-primelux-orange cursor-pointer z-50"
