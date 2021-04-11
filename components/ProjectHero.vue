@@ -8,7 +8,7 @@
         ></div>
       </transition>
 
-      <div class="flex-side flex w-full px-78 absolute bottom-0">
+      <div class="flex-side flex w-full px-78 absolute bottom-0 z-10">
         <div class="title w-full mb-20">
           <h1
             class="text-primelux-grey text-56px font-bold leading-56px max-w-xs z-10"

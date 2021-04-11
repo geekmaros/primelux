@@ -8,7 +8,7 @@
     >
       <div class="flex justify-start px-5 md:px-78">
         <div
-          class="project-title bg-primelux-purple absolute bottom-0 w-6/12 z-50"
+          class="project-title bg-primelux-purple absolute bottom-0 w-6/12 z-30"
         >
           <div class="name-location pt-10 mx-auto px-10 pb-10 w-10/12">
             <h3
@@ -21,9 +21,9 @@
       </div>
     </div>
     <div class="flex-lines h-full w-full flex">
-      <div class="left-flex h-8 w-full bg-primelux-grey opacity-50 z-50"></div>
+      <div class="left-flex h-8 w-full bg-primelux-grey opacity-50 z-30"></div>
       <div
-        class="right-flex h-16 w-full bg-primelux-grey opacity-20 z-50"
+        class="right-flex h-16 w-full bg-primelux-grey opacity-20 z-30"
       ></div>
     </div>
 

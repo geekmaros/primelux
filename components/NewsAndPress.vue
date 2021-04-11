@@ -11,7 +11,7 @@
     >
       <NewsCard
         v-for="(post, index) in posts"
-        :key="post - `${index}`"
+        :key="`post -${index}`"
         :post="post"
         class="mb-10 md:mb-0"
       ></NewsCard>

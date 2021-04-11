@@ -1,8 +1,8 @@
 <template>
   <nav
-    class="flex justify-between absolute items-center px-5 md:px-78 py-4 h-20"
+    class="flex justify-between absolute items-center px-5 md:px-78 py-4 h-20 z-50"
   >
-    <nuxt-link to="/">
+    <nuxt-link class="" to="/">
       <svg
         width="180"
         height="32"
@@ -81,6 +81,7 @@
         />
       </svg>
     </div>
+    <NavMenuWrapper :isOpen="isOpen" class="nvm" :class="{ open: isOpen }" />
   </nav>
 </template>
 
@@ -92,11 +93,35 @@ export default {
       isOpen: false,
     }
   },
+  watch: {
+    $route() {
+      this.isOpen = false
+    },
+  },
 }
 </script>
 
 <style scoped lang="scss">
 nav {
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(52, 61, 85, 1);
+  .nvm {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    background: linear-gradient(
+      90deg,
+      rgba(42, 49, 76, 0.96) 0%,
+      rgba(29, 34, 53, 0.96) 100%
+    );
+  }
+  .nvm.open {
+    width: 100%;
+    transition: 0.5s;
+  }
 }
 </style>
