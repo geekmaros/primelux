@@ -54,7 +54,7 @@
     </div>
 
     <div
-      class="flex flex-col md:flex-row w-full h-full md:space-x-24 md:justify-center md:items-center grid-cols-2 px-5 md:px-78 mt-32 mb-96"
+      class="flex flex-col md:flex-row w-full h-full md:space-x-24 md:justify-center md:items-center grid-cols-2 px-5 md:px-78 mt-32 md:mb-96"
     >
       <div class="desc">
         <h3 class="header font-bold text-2xl leading-30px">
@@ -71,7 +71,7 @@
       <div
         class="desc mt-78 flex flex-col flex-col-reverse md:flex-col md:translate-x-32 transform md:translate-y-64"
       >
-        <div class="img-wrapper">
+        <div class="img-wrapper mt-5 md:mt-0">
           <img class="w-full md:w-auto" src="/images/excellence.png" alt="" />
         </div>
         <div class="reverse">
@@ -86,7 +86,7 @@
       </div>
     </div>
     <div
-      class="flex flex-col md:flex-row w-full md:space-x-56 px-5 md:px-78 -mt-20"
+      class="flex flex-col md:flex-row w-full md:space-x-56 px-5 md:px-78 mt-20 md:-mt-20"
     >
       <div
         class="text-wrapper text-lg leading-30px text-primelux-grey ml-auto max-w-41rem"
