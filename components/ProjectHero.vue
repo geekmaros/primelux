@@ -23,9 +23,9 @@
           <h2
             class="name font-serif font-bold pl-10 text-primelux-grey text-xl"
           >
-            RPBW Atelier
+            ELEGANTE VILLA
           </h2>
-          <p class="location text-base pl-10 leading-24px">Ibeju</p>
+          <p class="location text-base pl-10 leading-24px">Maryland</p>
         </div>
         <div
           class="locations hidden md:block relative cursor-pointer border-t-4 border-primelux-grey self-end z-50 w-full py-10"
@@ -33,9 +33,9 @@
           <h2
             class="name font-serif font-bold pl-10 text-primelux-grey hover:text-red text-xl"
           >
-            Paris Courthouse
+            ROYALTY ESTATE (with Penthouse)
           </h2>
-          <p class="location text-base pl-10 leading-24px">Lekki</p>
+          <p class="location text-base pl-10 leading-24px">Ikeja</p>
         </div>
         <div
           class="locations hidden md:block cursor-pointer border-t-2 self-end w-full z-50 py-10"
@@ -43,7 +43,7 @@
           <h2
             class="name font-serif font-bold pl-10 text-primelux-grey text-xl"
           >
-            The Shard
+            GRAND HOMES
           </h2>
           <p class="location text-base pl-10 leading-24px">Magodo</p>
         </div>

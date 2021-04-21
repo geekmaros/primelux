@@ -14,7 +14,7 @@
           <h3
             class="font-bold text-56px leading-56px text-darken-purple text-center"
           >
-            Stone house with atrium
+            ELEGANTE VILLA
           </h3>
           <div class="sub-details-wrapper flex justify-between mt-5">
             <div class="sub-detail">
@@ -28,7 +28,9 @@
               <h3 class="text-lg leading-24px text-darken-purple">Villa</h3>
             </div>
             <div class="sub-detail">
-              <p class="text-xs leading-16px mb-4 text-light-purple">Client</p>
+              <p class="text-xs leading-16px mb-4 text-light-purple">
+                Location
+              </p>
               <h3 class="text-lg leading-24px text-darken-purple">Maryland</h3>
             </div>
           </div>

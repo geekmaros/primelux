@@ -30,7 +30,20 @@
         class="right-flex h-8 md:h-16 w-full bg-primelux-grey opacity-20 z-30"
       ></div>
     </div>
-
+    <div class="flex flex-col md:flex-row md:justify-center mt-24">
+      <div
+        class="text-wrapper text-lg leading-30px text-primelux-grey max-w-41rem mt-10 md:mt-0"
+      >
+        <h3 class="header font-bold md:text-center text-2xl leading-30px mb-5">
+          LUXURY HOMES ON A BUDGET
+        </h3>
+        <p class="md:max-w-15rems md:text-center">
+          Primelux is redefining how you buy a home by easy transition to the
+          next chapter of living in comfort and style within a reasonable
+          budget.
+        </p>
+      </div>
+    </div>
     <div class="flex flex-col md:flex-row md:space-x-56 px-5 md:px-78 mt-24">
       <div class="img-wrapper">
         <img class="w-full" src="/images/abouttop.png" alt="" />
@@ -38,17 +51,19 @@
       <div
         class="text-wrapper text-lg leading-30px text-primelux-grey max-w-41rem mt-10 md:mt-0"
       >
-        <p>
-          Neverland stands for advice, guidance, realization and unburdening. In
-          short a renovation without worries! Neverland stands for advice,
-          guidance, realization and unburdening. In short a renovation without
-          worries!
+        <h3 class="header font-bold text-2xl leading-30px mb-5">
+          BUILDING LIFESTYLE EXPERIENCE
+        </h3>
+        <p class="md:max-w-30rem">
+          While maintaining a standard of excellence, integrity and
+          sustainability, we are poised to cater to the needs of home buyers
+          from across the globe interested in acquiring properties in choice
+          residential areas within Lagos.
         </p>
-        <p class="mt-5">
-          View a number of our completed projects and discover the possibilities
-          to (re) build without worries with Neverland finishing! We help you
-          and together create a beautiful, luxurious look and a clear design for
-          your building!
+        <p class="md:max-w-30rem mt-2">
+          Along with Estatevest, our affiliate platform, we construct luxurious
+          yet affordable homes for new owners and enlist them for acquisition
+          through an easy buying experience.
         </p>
       </div>
     </div>
@@ -58,29 +73,30 @@
     >
       <div class="desc">
         <h3 class="header font-bold text-2xl leading-30px">
-          For the love of nature
+          Affordable Luxurious Style
         </h3>
         <p class="font-normal text-lg leading-30p md:max-w-15rem mt-5">
-          From early pre-contact settlments, to the economic boom times of the
-          plantation
+          Discover your dream home among our elegant modern houses, penthouses
+          and villas for sale. Complete with tastefully designed interiors and
+          in neighbourhoods you have always wanted.
         </p>
         <div class="img-wrapper mt-5">
           <img class="w-full md:w-auto" src="/images/desc1.png" alt="" />
         </div>
       </div>
       <div
-        class="desc mt-78 flex flex-col flex-col-reverse md:flex-col md:translate-x-32 transform md:translate-y-64"
+        class="desc mt-78 flex flex-col flex-col-reverse md:flex-col md:translate-x-48 transform md:translate-y-64"
       >
         <div class="img-wrapper mt-5 md:mt-0">
           <img class="w-full md:w-auto" src="/images/excellence.png" alt="" />
         </div>
         <div class="reverse">
           <h3 class="header font-bold text-2xl leading-30px mt-5 md:w-6/12">
-            An unmatched reputation for excellence
+            Transparent Nearly Seamless Service
           </h3>
           <p class="font-normal text-lg leading-30p md:max-w-15rem mt-5">
-            Our fully integrated business model allows us to create a shared
-            vision across our properties
+            We have a transparent and easy to follow business model coupled with
+            top class client service to create our vision.
           </p>
         </div>
       </div>
