@@ -253,10 +253,10 @@
               <h2
                 class="font-serif font-bold text-primelux-grey text-base md:text-lg md:text-xl"
               >
-                <slot name="name">RPBW Atelier</slot>
+                <slot name="name">ROYALTY ESTATE (with Penthouse)</slot>
               </h2>
               <p class="location font-serif text-base leading-24px">
-                <slot name="location">Maryland</slot>
+                <slot name="location">Ikeja</slot>
               </p>
             </div>
           </nuxt-link>
@@ -282,10 +282,10 @@
               <h2
                 class="font-serif font-bold text-primelux-grey text-base md:text-lg md:text-xl"
               >
-                <slot name="name">Jean-Marie Tjibaou</slot>
+                <slot name="name">GRAND HOMES</slot>
               </h2>
               <p class="location font-serif text-base leading-24px">
-                <slot name="location">Ibeju Lekki</slot>
+                <slot name="location">Magodo</slot>
               </p>
             </div>
           </nuxt-link>
