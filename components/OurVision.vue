@@ -37,7 +37,7 @@
       alt=""
     />
     <div
-      class="main-vision flex flex-col md:flex-row justify-between mt-20 md:mt-40 items-center"
+      class="main-vision flex flex-col md:flex-row md:space-x-7.5 justify-center mt-20 md:mt-40 items-center"
     >
       <div class="vision-wrapper flex mb-16 md:mb-0">
         <svg
@@ -65,7 +65,7 @@
           </p>
         </div>
       </div>
-      <div class="vision-wrapper flex mb-16 md:mb-0">
+      <div class="vision-wrapper flex mb-16 md:mb-0 -mt-6">
         <svg
           width="4"
           height="48"
@@ -91,32 +91,32 @@
           </p>
         </div>
       </div>
-      <div class="vision-wrapper flex mb-16 md:mb-0">
-        <svg
-          width="4"
-          height="48"
-          viewBox="0 0 4 48"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <rect width="4" height="48" fill="#F5B172" />
-        </svg>
+      <!--      <div class="vision-wrapper flex mb-16 md:mb-0">-->
+      <!--        <svg-->
+      <!--          width="4"-->
+      <!--          height="48"-->
+      <!--          viewBox="0 0 4 48"-->
+      <!--          fill="none"-->
+      <!--          xmlns="http://www.w3.org/2000/svg"-->
+      <!--        >-->
+      <!--          <rect width="4" height="48" fill="#F5B172" />-->
+      <!--        </svg>-->
 
-        <div class="vision-main-text font-serif ml-5">
-          <h2
-            class="vision-title text-primelux-grey font-bold h-10 text-2xl leading-24px max-w-18rem"
-          >
-            Building the Future
-          </h2>
-          <p
-            class="vision-subtext text-primelux-grey text-base mt-5s leading-24px max-w-19rem"
-          >
-            Builds quality, liveable homes in attractive metropolitan areas.
-            With family living at the heart of everything we do, the exceptional
-            quality of our design together with our focus on functional homes
-          </p>
-        </div>
-      </div>
+      <!--&lt;!&ndash;        <div class="vision-main-text font-serif ml-5">&ndash;&gt;-->
+      <!--&lt;!&ndash;          <h2&ndash;&gt;-->
+      <!--&lt;!&ndash;            class="vision-title text-primelux-grey font-bold h-10 text-2xl leading-24px max-w-18rem"&ndash;&gt;-->
+      <!--&lt;!&ndash;          >&ndash;&gt;-->
+      <!--&lt;!&ndash;            Building the Future&ndash;&gt;-->
+      <!--&lt;!&ndash;          </h2>&ndash;&gt;-->
+      <!--&lt;!&ndash;          <p&ndash;&gt;-->
+      <!--&lt;!&ndash;            class="vision-subtext text-primelux-grey text-base mt-5s leading-24px max-w-19rem"&ndash;&gt;-->
+      <!--&lt;!&ndash;          >&ndash;&gt;-->
+      <!--&lt;!&ndash;            Builds quality, liveable homes in attractive metropolitan areas.&ndash;&gt;-->
+      <!--&lt;!&ndash;            With family living at the heart of everything we do, the exceptional&ndash;&gt;-->
+      <!--&lt;!&ndash;            quality of our design together with our focus on functional homes&ndash;&gt;-->
+      <!--&lt;!&ndash;          </p>&ndash;&gt;-->
+      <!--&lt;!&ndash;        </div>&ndash;&gt;-->
+      <!--      </div>-->
     </div>
   </section>
 </template>
