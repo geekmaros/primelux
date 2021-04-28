@@ -7,7 +7,7 @@
     <Project class=""></Project>
     <Testimonial></Testimonial>
     <NewsAndPress></NewsAndPress>
-    <ContactForm></ContactForm>
+    <!--    <ContactForm></ContactForm>-->
     <!--    <div class="grid bg-lines w-full h-full grid-cols-5 absolutes top-0">-->
     <!--      <div class="line-1 lines__line border-l"></div>-->
     <!--      <div class="line-1 lines__line border-l"></div>-->
