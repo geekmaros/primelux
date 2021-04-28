@@ -3,6 +3,7 @@
     <ProjectHero></ProjectHero>
     <!--    <AppHero></AppHero>-->
     <OurVision class="w-full"></OurVision>
+    <AboutContent></AboutContent>
     <Project class=""></Project>
     <Testimonial></Testimonial>
     <NewsAndPress></NewsAndPress>
