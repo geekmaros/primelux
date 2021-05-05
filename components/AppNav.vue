@@ -26,62 +26,79 @@
       </svg>
     </nuxt-link>
 
-    <div
-      v-if="!isOpen"
-      @click="isOpen = !isOpen"
-      class="menu-wrapper inline-flex items-center cursor-pointer"
-    >
-      <h2
-        class="uppercase hidden md:block font-serif text-base text-primelux-grey font-bold 2xl:leading-3 mr-3"
+    <div class="">
+      <a
+        href="http://calendly.com/primeluxng"
+        target="_blank"
+        type="submit"
+        class="z-50 mr-10 inline-flex rounded-lg items-center border-b-4 border-primelux-orange text-primelux-grey hover:text-white focus:outline-none transition-all ease-in pb-3 pt-4 px-4 hover:bg-primelux-orange"
       >
-        Menu
-      </h2>
-      <svg
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        class="cursor-pointer"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <rect x="2" y="3" width="20" height="2" fill="#EFF1F5" />
-        <rect x="2" y="11" width="20" height="2" fill="#EFF1F5" />
-        <rect x="2" y="19" width="20" height="2" fill="#EFF1F5" />
-      </svg>
-    </div>
+        <span class="text-base mr-3 leading-16px uppercase font-bold">
+          Book an Appointment</span
+        >
+      </a>
 
-    <div
-      v-if="isOpen"
-      @click="isOpen = !isOpen"
-      class="menu-wrapper inline-flex items-center cursor-pointer"
-    >
-      <h2
-        class="uppercase hidden md:block font-serif text-base text-primelux-grey font-bold 2xl:leading-3 mr-3"
+      <div
+        v-if="!isOpen"
+        @click="isOpen = !isOpen"
+        class="menu-wrapper inline-flex items-center cursor-pointer"
       >
-        Close
-      </h2>
-      <svg
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
+        <h2
+          class="uppercase hidden md:block font-serif text-base text-primelux-grey font-bold 2xl:leading-3 mr-3"
+        >
+          Menu
+        </h2>
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          class="cursor-pointer"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect x="2" y="3" width="20" height="2" fill="#EFF1F5" />
+          <rect x="2" y="11" width="20" height="2" fill="#EFF1F5" />
+          <rect x="2" y="19" width="20" height="2" fill="#EFF1F5" />
+        </svg>
+      </div>
+
+      <div
+        v-if="isOpen"
+        @click="isOpen = !isOpen"
+        class="menu-wrapper inline-flex items-center cursor-pointer"
       >
-        <path
-          d="M21.1924 19.7782L4.22183 2.80762L2.80762 4.22183L19.7782 21.1924L21.1924 19.7782Z"
-          fill="#EFF1F5"
-        />
-        <path
-          d="M14.1213 8.46447L19.7782 2.80762L21.1924 4.22183L15.5355 9.87869L14.1213 8.46447Z"
-          fill="#EFF1F5"
-        />
-        <path
-          d="M2.80762 19.7782L8.46447 14.1213L9.87868 15.5355L4.22183 21.1924L2.80762 19.7782Z"
-          fill="#EFF1F5"
-        />
-      </svg>
+        <h2
+          class="uppercase hidden md:block font-serif text-base text-primelux-grey font-bold 2xl:leading-3 mr-3"
+        >
+          Close
+        </h2>
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M21.1924 19.7782L4.22183 2.80762L2.80762 4.22183L19.7782 21.1924L21.1924 19.7782Z"
+            fill="#EFF1F5"
+          />
+          <path
+            d="M14.1213 8.46447L19.7782 2.80762L21.1924 4.22183L15.5355 9.87869L14.1213 8.46447Z"
+            fill="#EFF1F5"
+          />
+          <path
+            d="M2.80762 19.7782L8.46447 14.1213L9.87868 15.5355L4.22183 21.1924L2.80762 19.7782Z"
+            fill="#EFF1F5"
+          />
+        </svg>
+      </div>
     </div>
-    <NavMenuWrapper :isOpen="isOpen" class="nvm" :class="{ open: isOpen }" />
+    <NavMenuWrapper
+      :isOpen="isOpen"
+      class="nvm"
+      :class="{ 'open open': isOpen }"
+    />
   </nav>
 </template>
 
@@ -106,13 +123,13 @@ nav {
   background: rgba(52, 61, 85, 1);
   .nvm {
     height: 100%;
-    width: 0%;
+    width: 0;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
     overflow-x: hidden;
-    transition: 0.5s;
+    transition: all 0.5ms ease-in-out;
     background: linear-gradient(
       90deg,
       rgba(42, 49, 76, 0.96) 0%,
@@ -121,7 +138,7 @@ nav {
   }
   .nvm.open {
     width: 100%;
-    transition: 0.5s;
+    transition: all 0.5ms ease-in;
   }
 }
 </style>
