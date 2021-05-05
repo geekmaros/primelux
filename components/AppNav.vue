@@ -26,14 +26,16 @@
       </svg>
     </nuxt-link>
 
-    <div class="">
+    <div class="flex items-center">
       <a
         href="http://calendly.com/primeluxng"
         target="_blank"
         type="submit"
-        class="z-50 mr-10 inline-flex rounded-lg items-center border-b-4 border-primelux-orange text-primelux-grey hover:text-white focus:outline-none transition-all ease-in pb-3 pt-4 px-4 hover:bg-primelux-orange"
+        class="z-50 hidden md:block md:mr-10 inline-flex rounded-lg items-center border-b-4 border-primelux-orange text-primelux-grey hover:text-white focus:outline-none transition-all ease-in pb-2 md:pb-3 pt-2 md:pt-4 px-2 md:px-4 hover:bg-primelux-orange"
       >
-        <span class="text-base mr-3 leading-16px uppercase font-bold">
+        <span
+          class="md:text-base mr-3 text-center md:text-left leading-16px uppercase font-bold"
+        >
           Book an Appointment</span
         >
       </a>

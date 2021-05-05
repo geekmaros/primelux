@@ -22,6 +22,19 @@
         >
           <nuxt-link to="/contact">Contact</nuxt-link>
         </li>
+
+        <a
+          href="http://calendly.com/primeluxng"
+          target="_blank"
+          type="submit"
+          class="z-50 md:mr-10 md:hidden inline-flex rounded-lg items-center border-b-4 border-primelux-orange text-primelux-grey hover:text-white focus:outline-none transition-all ease-in pb-4 md:pb-3 pt-5 md:pt-4 px-5 md:px-4 bg-primelux-orange md:bg-transparent hover:bg-primelux-orange"
+        >
+          <span
+            class="text-2xl mr-3 text-center md:text-left leading-16px uppercase font-bold"
+          >
+            Book an Appointment</span
+          >
+        </a>
       </ul>
     </div>
     <div class="grid bg-lines w-full h-full grid-cols-5 absolutes top-0">
