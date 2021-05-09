@@ -4,8 +4,8 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: 'Mastering Nuxt: %s',
-    title: 'primelux',
+    titleTemplate: 'Primelux: %s',
+    title: 'primelux is redefining how you buy a home',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -40,7 +40,6 @@ export default {
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
   ],
-
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
 
